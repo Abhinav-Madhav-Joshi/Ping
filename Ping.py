@@ -12,7 +12,7 @@ if you have different preferences then you may continue :)\n''')
     if age<18:
         print("Sorry but you can't play this game as you are a minor")
         print("1.Restart     2.Exit")
-        option=input("Enter your choice (1 or 2) : ")
+        option=int(input("Enter your choice (1 or 2) : "))
         if(option==1):
             continue
         else:
